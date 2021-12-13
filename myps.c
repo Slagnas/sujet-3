@@ -18,6 +18,10 @@ int main(int argc, const char *argv[])
             error(1);
         }
     }
+    else
+    {
+        error(0);
+    }
 
     return 0;
 }
